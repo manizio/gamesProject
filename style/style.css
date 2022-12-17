@@ -151,6 +151,14 @@ body{
     text-shadow: 2.5px 2.5px #666;
 }
 
+.vr{
+    background-color: white;
+    border: 1px solid;
+    min-height: 100%;  
+    padding-top: 60vh;
+    border-radius: 5rem;
+}
+
 #wrapper{
     display: flex;  
     width: 100%;
@@ -229,7 +237,14 @@ div.descriptionContainer > p:first-child{
 }
 
 
-
+footer{ 
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    color: rgb(98, 98, 129);
+    bottom: 0;
+    
+}
 
 
 .loading {

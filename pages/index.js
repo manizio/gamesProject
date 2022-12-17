@@ -56,6 +56,10 @@ export default function GamesApp() {
           />
         </div>
       </ConfigProvider>
+
+      <footer>
+        <p>Desenvolvido por: Manoel Anízio e Isadora Stéfany</p>
+      </footer>
     </section>
   );
 }

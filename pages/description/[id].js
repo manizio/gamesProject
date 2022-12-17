@@ -14,7 +14,9 @@ export default function Game({data}){
                     <div>{data.name}</div>
                     <span>{data.platforms.map(p => <p>{p.platform.name}</p>)}</span>
                     <img width={600} height={300} src={data.background_image}/>
+                    
                 </div>
+                <div class="vr"></div>
                 <div class="descriptionContainer">
                     <p>Descrição:</p>
                     {data.description.replace(/<[^>]+>/g, '')}
