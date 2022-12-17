@@ -1,0 +1,276 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0;
+    margin: 0;
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+body{
+    background-color: #171A21;
+}
+
+#mainContainer{
+    gap: 3rem;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+#container{
+    gap: 2rem;
+    display: flex;
+    flex: column;
+    align-items: center;
+}
+
+#tooltip{
+    text-align: center;
+    height: fit-content;
+    border: 1px solid;
+}
+
+.cell{
+    position: relative;
+}
+
+#gameForm{
+    padding: 2rem;
+    gap: 1rem;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+}
+
+#gameForm label{
+    font-weight: bold;
+    color:white;
+    font-size: 2rem;
+}
+
+#gameForm input{
+    width: 100%;
+    font-size: 2rem;
+
+    border-radius: 0.40rem;
+}
+
+#platforms{
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+    padding: 0.75rem;
+}
+#platforms div{
+    display: flex;
+    flex-flow: row;
+}
+
+#platformName{
+    color: rgb(68, 119, 196);
+    display: flex;
+    flex-flow: row;
+    padding: 0.75rem;
+    margin: auto;
+    text-align: center;
+}
+
+#voltar{
+    margin:auto;
+    font-size: 2rem;
+    padding: 3rem;
+    font-weight: bold;
+}
+
+.game{
+    margin: auto;
+    padding: 3rem;
+    color: white;
+    align-items: center;
+    display: flex;
+    flex-flow: row;
+
+    gap: 2rem;
+}
+
+#titleImageContainer{
+    display: flex;
+    flex-flow: column;
+    gap: 1rem;
+    width: fit-content;
+    align-items: center;
+
+    left: 2rem;
+}
+
+#titleImageContainer p{
+    font-size: 1rem;
+}
+
+#titleImageContainer span{
+    display: flex;
+    flex-flow: row;
+    gap: 0.7rem;
+    
+    
+}
+
+#titleImageContainer span p {
+    background-color: rgb(35, 47, 66);
+    color:#eee8e8;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+#titleImageContainer img{
+   
+
+    background-color: white;
+
+    box-shadow: 3px 3px #555;
+
+    padding: 0.25rem;
+    border-radius: 5px;
+    margin: auto;
+    min-height: fit-content;
+    width: fit-content;
+}
+
+#titleImageContainer div{
+    width: fit-content;
+    font-size: 3rem;
+
+    color: white;
+    font-weight: bold;
+
+    text-shadow: 2.5px 2.5px #666;
+}
+
+#wrapper{
+    display: flex;  
+    width: 100%;
+    margin: auto;
+
+    flex-wrap: wrap;
+    
+}
+
+div.descriptionContainer{
+    gap: 2rem;
+    color:white;
+    display: flex;
+    width: 50%;
+    height: min-content;
+    margin: auto;
+    text-align: justify;
+    flex-flow: column;
+
+}
+
+div.descriptionContainer > p:first-child{
+    
+    font-size: 3rem;
+    font-weight: bold;
+
+}
+
+.attributes{
+    align-items: center;
+    color: rgb(104, 131, 177);
+    display: flex;
+    gap: 0.5rem;
+    flex-flow: row;
+    width: auto;
+    margin: auto;
+}
+
+/*rgb(113, 137, 177)*/
+
+#genre{
+    width: fit-content;
+    text-align: center;
+}
+
+#tags{
+    width: auto;
+    margin: auto;
+    gap: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+#genre, #tags{
+    background-color: rgb(25, 34, 51);
+    padding: 1rem;
+
+    border-radius: 2rem;
+
+}
+
+#htmlPage{
+    color: red;
+    min-height: 100%;
+    display: flex;
+    margin: auto;
+}
+
+#bodyPage{
+    color: purple;
+    margin: auto;
+    display: flex;
+    min-height: 100%;
+}
+
+
+
+
+
+.loading {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+  
+    font-weight: 700;
+    font-size: 2rem;
+    color: white;
+    text-shadow: 5px 5px #333333;
+  }
+  
+  .loading:after {
+    content: " .";
+    animation: dots 1s steps(5, end) infinite;
+  }
+  
+  @keyframes dots {
+    0%,
+    20% {
+      color: rgba(0, 0, 0, 0);
+      text-shadow: 0.25em 0 0 rgba(0, 0, 0, 0), 0.5em 0 0 rgba(0, 0, 0, 0);
+    }
+    40% {
+      color: white;
+      text-shadow: 0.25em 0 0 rgba(0, 0, 0, 0), 0.5em 0 0 rgba(0, 0, 0, 0);
+    }
+    60% {
+      text-shadow: 0.25em 0 0 white, 0.5em 0 0 rgba(0, 0, 0, 0);
+    }
+    80%,
+    100% {
+      text-shadow: 0.25em 0 0 white, 0.5em 0 0 white;
+    }
+  }
+  
+  #noresult {
+    color: white;
+    display: flex;
+    margin: auto;
+  }

@@ -1,0 +1,21 @@
+{
+  "name": "gamesproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "antd": "^5.0.7",
+    "next": "^13.0.6",
+    "swr": "^1.3.0"
+  },
+  "devDependencies": {
+    "@iconify/react": "^4.0.1"
+  }
+}
